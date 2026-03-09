@@ -1,3 +1,5 @@
+import { TodoItem } from './TodoItem.jsx'
+
 export function TodoList({todos, toggleTodo, deleteTodo}) {
     return(
         <ul className="list">
